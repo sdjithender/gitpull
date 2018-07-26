@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  task:
+    - name: creat file
+      file: path=/home/rps/pull.txt state=touch
+
